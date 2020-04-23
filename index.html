@@ -9,47 +9,67 @@
   <body>
     <div class="main">
       <div class="conteiner conteiner--img">
-        <img class="image" src="img/registro.png" />
+        <img class="conteiner__image" src="img/registro.png" />
       </div>
 
       <div class="conteiner conteiner--info">
-        <h1 class="title">Hola!</h1>
-        <h2 class="subtitle">Comencemos el viaje</h2>
-        <form action="form">
+        <form action="form" class="form">
+          <h1 class="title">Hola!</h1>
+          <h2 class="subtitle">Comencemos el viaje</h2>
+
           <div class="form__item">
-            <label for="">
+            <label for="" class="form__label">
               Username
             </label>
-            <input type="text" placeholder="Ingresá tu usuario" />
+            <input
+              class="form__input"
+              type="text"
+              placeholder="Ingresá tu usuario"
+            />
           </div>
-          <div class="conteiner__form__item">
-            <label for="">Email </label>
-            <input type="email" placeholder="ejemplo@dominio.com" />
+          <div class="form__item">
+            <label for="" class="form__label"> Email </label>
+            <input
+              class="form__input"
+              type="email"
+              placeholder="ejemplo@dominio.com"
+            />
           </div>
-          <div class="conteiner__form__item">
-            <label for="">
+          <div class="form__item">
+            <label for="" class="form__label">
               contraseña
             </label>
-            <input type="password" placeholder="Ingresá tu contraseña" />
+            <input
+              class="form__input"
+              type="password"
+              placeholder="Ingresá tu contraseña"
+            />
           </div>
-          <div class="conteiner__form__item">
-            <label for="">
+          <div class="form__item">
+            <label for="" class="form__label">
               Confirmar Contraseña
             </label>
-            <input type="password" placeholder="Confirma tu contraseña" />
+            <input
+              class="form__input"
+              type="password"
+              placeholder="Confirma tu contraseña"
+            />
           </div>
-          <div class="conteiner__form__item">
-            <label>
-              <input type="checkbox" /> Estoy de acuerdo con los
+          <div class="form__item">
+            <label class="form__label">
+              <input class="form__checkbox__" type="checkbox" /> Estoy de
+              acuerdo con los
               <a href="">términos y condiciones</a>
             </label>
           </div>
-          <div class="conteiner__form__item">
-            <button>Registrarme</button>
+          <div class="form__item">
+            <button class="btn">Registrarme</button>
           </div>
 
-          <div class="conteiner__form__item">
-            <p>Tienes una cuenta? <a href="">Ingresa!</a></p>
+          <div class="form__item">
+            <p class="form__legales">
+              Tienes una cuenta? <a class="form__legales" href="">Ingresa!</a>
+            </p>
           </div>
         </form>
       </div>
