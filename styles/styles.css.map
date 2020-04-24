@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["layout/_body.scss","base/_reset.scss","components/_conteiner.scss","utils/_variables.scss","layout/_main.scss"],"names":[],"mappings":"AAAQ;ACAR;EACE;EACA;EACA;;;ACHF;EACE;EACA;;AAEA;EACE,kBCaqB;EDZrB;EACA;;AAGF;EACE;EACA;EACA,SCLQ;;ADQV;EACE;EACA;;;AFhBJ;EACE;EACA,kBGJqB;;;ACAvB;EACE;EACA;EACA;EACA;EACA","file":"styles.css"}

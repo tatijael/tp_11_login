@@ -3,7 +3,7 @@
   display: flex;
 
   &--img {
-    background-color: #ebd0d3;
+    background-color: $background-color-image;
     justify-content: center;
     align-items: center;
   }
@@ -11,6 +11,7 @@
   &--info {
     background-color: white;
     flex-direction: column;
+    padding: $espaciado;
   }
 
   .conteiner__image {

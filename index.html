@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600,700,800&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -16,63 +20,64 @@
         <form action="form" class="form">
           <h1 class="title">Hola!</h1>
           <h2 class="subtitle">Comencemos el viaje</h2>
-
-          <div class="form__item">
-            <label for="" class="form__label">
-              Username
+          <div class="form form--item">
+            <div class="form form--item">
+              <label for="" class="form form--label">
+                Username
+              </label>
+              <input
+                class="form form--input"
+                type="text"
+                placeholder="Ingresá tu usuario"
+              />
+            </div>
+            <div class="form form--item">
+              <label for="" class="form form--label"> Email </label>
+              <input
+                class="form form--input"
+                type="email"
+                placeholder="ejemplo@dominio.com"
+              />
+            </div>
+            <div class="form form--item">
+              <label for="" class="form form--label">
+                Contraseña
+              </label>
+              <input
+                class="form form--input"
+                type="password"
+                placeholder="Ingresá tu contraseña"
+              />
+            </div>
+            <div class="form form--item">
+              <label for="" class="form form--label">
+                Confirmar Contraseña
+              </label>
+              <input
+                class="form form--input"
+                type="password"
+                placeholder="Confirma tu contraseña"
+              />
+            </div>
+          </div>
+          <div class="form__item__label">
+            <label class="form form--checkbox_label">
+              <input class="form__checkbox" type="checkbox" /> Estoy de acuerdo
+              con los
+              <a href="" class="links">términos y condiciones</a>
             </label>
-            <input
-              class="form__input"
-              type="text"
-              placeholder="Ingresá tu usuario"
-            />
           </div>
-          <div class="form__item">
-            <label for="" class="form__label"> Email </label>
-            <input
-              class="form__input"
-              type="email"
-              placeholder="ejemplo@dominio.com"
-            />
-          </div>
-          <div class="form__item">
-            <label for="" class="form__label">
-              contraseña
-            </label>
-            <input
-              class="form__input"
-              type="password"
-              placeholder="Ingresá tu contraseña"
-            />
-          </div>
-          <div class="form__item">
-            <label for="" class="form__label">
-              Confirmar Contraseña
-            </label>
-            <input
-              class="form__input"
-              type="password"
-              placeholder="Confirma tu contraseña"
-            />
-          </div>
-          <div class="form__item">
-            <label class="form__label">
-              <input class="form__checkbox__" type="checkbox" /> Estoy de
-              acuerdo con los
-              <a href="">términos y condiciones</a>
-            </label>
-          </div>
-          <div class="form__item">
-            <button class="btn">Registrarme</button>
-          </div>
-
-          <div class="form__item">
-            <p class="form__legales">
-              Tienes una cuenta? <a class="form__legales" href="">Ingresa!</a>
-            </p>
-          </div>
-        </form>
+          <div class="form form--item__label">
+            <div class="form__item__label">
+              <button class="btn">Registrarme</button>
+                <p class="form__legales">
+                  Tienes una cuenta? <a class="links" href="">Ingresa!</a>
+                </p>
+             </div>
+            </div>
+        </div>
       </div>
-    </div>
+    </form>
+     
   </body>
 </html>

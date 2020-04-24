@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  width: 50%;
+  display: flex;
+}
+.conteiner--img {
+  background-color: #ebd0d3;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner--info {
+  background-color: white;
+  flex-direction: column;
+  padding: 40px;
+}
+.conteiner .conteiner__image {
+  width: 80%;
+  height: auto;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #dbdbdb;
+}
+
+.main {
+  width: 70%;
+  height: 500px;
+  display: flex;
+  margin: 30px auto;
+  box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*# sourceMappingURL=styles.css.map */
