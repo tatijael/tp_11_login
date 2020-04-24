@@ -1,0 +1,15 @@
+.btn {
+  background-color: $background-color;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: $hover-background-color;
+}
+
+.btn:active {
+  background-color: $active-background-color;
+}

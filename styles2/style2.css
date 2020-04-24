@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  width: 50%;
+  display: flex;
+}
+.conteiner--img {
+  background-color: #00d1b2;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner--info {
+  background-color: white;
+  padding: 40px;
+  align-items: center;
+}
+.conteiner .conteiner__image {
+  width: 80%;
+  height: auto;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  font-size: 36px;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.form--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 3px 0;
+}
+.form--input {
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #e1e1e1e1;
+}
+.form input::placeholder {
+  padding: 8px;
+}
+.form--label {
+  font-weight: 600;
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+.form--checkbox_label {
+  font-size: 12px;
+}
+
+.form__checkbox {
+  margin: 1rem 0;
+}
+
+.form__legales {
+  font-size: 11px;
+  margin-top: 1rem;
+}
+
+.links {
+  text-decoration: none;
+  color: #3273dc;
+}
+
+.btn {
+  background-color: #00d1b2;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: #00c4a7;
+}
+
+.btn:active {
+  background-color: #00b89c;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #dbdbdb;
+}
+
+.main {
+  width: 70%;
+  height: 500px;
+  display: flex;
+  margin: 30px auto;
+  box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*# sourceMappingURL=style2.css.map */

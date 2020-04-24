@@ -1,0 +1,21 @@
+.conteiner {
+  width: 50%;
+  display: flex;
+
+  &--img {
+    background-color: $valid-border-color;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &--info {
+    background-color: white;
+    padding: $espaciado;
+    align-items: center;
+  }
+
+  .conteiner__image {
+    width: 80%;
+    height: auto;
+  }
+}
